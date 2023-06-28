@@ -1,13 +1,14 @@
 import './App.css';
-import BaiTapLayOut1 from './baitaplayout1';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js'
 import '../node_modules/jquery/dist/jquery.min.js'
+import Index from './shoesshop';
 
 function App() {
   return (
-      <BaiTapLayOut1 />
+    <>
+      <Index />
+    </>
   );
 }
-
 export default App;
